@@ -1,0 +1,53 @@
+h1
+{
+    align-self: center;
+    text-align: center;
+    margin: 15px;
+}
+
+#contenedor
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    padding: 20px;
+    background-color: lavender;
+}
+
+.tarea
+{
+    background-color: lightblue;
+    border-radius: 8px;
+    padding: 20px;
+    width: 120px;
+    text-align: center;
+}
+
+.boton 
+{
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(135deg, #333233, #6a6b6b);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 14px;
+    font-size: 1rem;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.boton:hover 
+{
+    transform: scale(1.05);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
+    background: linear-gradient(135deg, #6a6b6b, #acadad);
+}
+
+.boton:active 
+{
+    transform: scale(0.97);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
