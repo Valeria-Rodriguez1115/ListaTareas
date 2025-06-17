@@ -7,7 +7,7 @@ botonAñade.addEventListener("click", () =>
     nuevaTarea.classList.add("tarea");
     nuevaTarea.textContent = "Nueva tarea";
     contenedor.appendChild(nuevaTarea);
-})
+});
 
 botonElimina.addEventListener("click", () =>
 {
@@ -16,4 +16,4 @@ botonElimina.addEventListener("click", () =>
     {
         contenedor.removeChild(tareas[tareas.length - 1]);
     }
-})
+});
